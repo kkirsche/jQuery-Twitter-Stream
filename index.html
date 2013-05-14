@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script src="jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                url: "getTweets.php",
+                success: function(result) {
+                    $("body").html(result);
+                }
+            }) 
+        });
+    </script>
+</body>
+</html>
