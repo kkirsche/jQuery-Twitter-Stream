@@ -1,0 +1,216 @@
+#profile{
+
+	margin-top:20px;
+	margin-left:10px;
+
+
+}
+
+#tab1{
+
+border-right:none !important;
+
+
+}
+#tab2{
+
+border-right:none !important;
+
+
+}
+
+#profileText {
+    font-family: "nimbus-sans-n3",sans-serif;
+    color: #920024;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top:65px;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+
+#profileTabs{
+	z-index:101;
+	position:relative;
+	min-width: 205px;;
+}
+
+#profileTabs .tab{
+	width:67px;
+	height:26px;
+	background-color:#ffffff;
+	color: #000000;
+	text-align: center;
+	border:1px solid  #920024;
+	float:left;
+	font-size: 12px;
+	padding-top:3px;
+	cursor:pointer;
+}
+
+.borderBottom{
+	border-bottom:1px solid  #920024;
+}
+
+
+#profileTabs .active{
+
+	border-bottom:none;
+
+}
+
+#profileHolder{
+	position:relative;
+	z-index:100;
+}
+
+.profileBox{
+	clear:both;
+	position:relative;
+	top:-1px;
+	width:203px;
+	height:255px;
+	background-color:#ffffff;
+	border-left: 1px solid #920024;
+	border-bottom: 1px solid #920024;
+	border-right: 1px solid #920024;
+}
+
+.profileBox img{
+
+	margin-left:9px;
+	margin-top:10px;
+
+
+}
+
+
+#profile .active{
+	display:block;
+}
+
+.proName{
+	margin-left:9px;
+	margin-top:10px;
+	color:#000000;
+	font-size:14px;
+	font-family: "adobe-garamond-pro",Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.studies{
+	margin-left:9px;
+	margin-top:-6px;
+	color:#000000;
+	font-size:14px;
+	font-family: "adobe-garamond-pro",Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.quote{
+
+	margin-left:9px;
+	margin-top:5px;
+	color:#000000;
+	font-size:12px;
+	font-family: "adobe-garamond-pro",Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+
+.learnmore a{
+
+	margin-left:9px;
+	margin-top:5px;
+	color:#920024;
+	font-size:11px;
+
+}
+
+.learnmore img {
+    left: -8px;
+    position: relative;
+    top: -5px;
+}
+
+#bestCollege{
+
+	margin-left: 15px;
+	margin-top:50px;
+
+}
+
+.top100{
+	font-family: "nimbus-sans-n3",sans-serif;
+	color:#920024;
+	font-size:17px;
+	line-height:17px;
+
+}
+
+.top100 .learnmore a{
+	color:#595a5e;
+	font-family: "nimbus-sans-n3",sans-serif;
+	font-weight: 700;
+	font-size:12px;
+	margin-left: 0px;
+}
+
+.top100 .learnmore img{
+	position:relative;
+	top:0px;
+	left:3px;
+
+}
+
+.socialSecondary{
+	padding-left: 6px;
+	margin-top:29px;
+	padding-bottom:20px;
+
+}
+
+.blackLarge{
+	font-size:16px;
+	font-weight: bold;
+	min-height: 24px !important;
+}
+
+.blackMedium{
+	font-size:14px;
+	font-weight: bold;
+	min-height: 24px !important;
+}
+
+.blackNormal{
+	min-height: 24px !important;
+}
+
+.blackNormalPad{
+	min-height: 24px !important;
+	padding-left: 20px;
+}
+
+.blackSmallEM{
+	font-size:11px;
+	font-style:italic;
+	min-height: 24px !important;
+	margin-top: 20px;
+	
+}
+
+.breadcrumb{
+	font-family: "nimbus-sans-n3",sans-serif;
+	color:#920024;
+	font-size:17px;
+	padding-bottom: 0px;
+background-color:transparent;
+padding-left:0px;}
+
+.breadcrumb a{
+	
+	color:#920024;
+	text-decoration:none;
+}
+
+.breadcrumb a:hover{
+	text-decoration:underline;
+}
