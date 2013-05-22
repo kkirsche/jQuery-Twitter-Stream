@@ -25,10 +25,10 @@ foreach ($tweets as $tweet) {
     //echo "<pre>";
     //print_r($tweet);
     //echo "</pre>";
-    echo '<img src=' . $tweet->user->profile_image_url . ' alt=\"@HSC1776 Profile Image\" />';
-    echo '<a href=\"' . $tweet->user->url . '\" target=\"_blank\" title=\"Hampden-Sydney College\">' . $tweet->user->screen_name . '</a><br />';
-    echo '<small>' . $tweet->user->location . "</small><br />";
-    echo $tweet->text;
+    echo '<img class="twitterProfileImage" src=' . $tweet->user->profile_image_url . ' alt="@HSC1776 Profile Image" />';
+    echo '<a class="twitterScreenName" href="' . $tweet->user->url . '" target="_blank" title="Hampden-Sydney College">@' . $tweet->user->screen_name . '</a>&nbsp;&nbsp;|&nbsp;&nbsp;' . $tweet->user->name;
+    echo '<br /><p class="twitterTweetedFromLocation">' . $tweet->user->location . "</p>";
+    echo '<p class="twitterTweetText">' . $tweet->text . '</p>';
     echo "<br /><br />";
     $i++;
 }
